@@ -125,7 +125,8 @@ All visuals are cross-filterable, so clicking a job title, language or country u
 ```
 
 
-## 📬 Contact
+**Author: Amir Deldar**
 
-**Amir Deldar** — [LinkedIn](https://www.linkedin.com/in/amirdeldar) · [GitHub](https://github.com/amir-deldar) · callmedeldar@gmail.com
+## 📬 Contact:
 
+[LinkedIn](https://www.linkedin.com/in/amirdeldar) · [GitHub](https://github.com/amir-deldar) · Email: <callmedeldar@gmail.com>
