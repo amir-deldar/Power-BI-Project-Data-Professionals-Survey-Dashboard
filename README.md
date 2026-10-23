@@ -1,8 +1,8 @@
-# 📊 Data Professional Survey Breakdown Dashboard (Power BI Project)
+# Data Professional Survey Breakdown Dashboard (Power BI Project)
 
 An interactive **Power BI** dashboard that explores the results of a survey of **630 data professionals** — what they earn, which tools they use, how happy they are at work, and how hard it was to break into the field.
 
-## 🎯 Project Overview
+## Project Overview
 
 People entering the data field often ask the same questions: *Which role pays the most? Which language should I learn? Is it hard to get in? Will I be happy?*
 
@@ -20,7 +20,7 @@ This project answers them with a one-page Power BI dashboard built on real surve
 └── README.md
 ```
 
-## ❓ Business Questions
+## Business Questions
 
 1. How does average salary differ across data job titles?
 2. Which programming languages do data professionals prefer?
@@ -28,7 +28,7 @@ This project answers them with a one-page Power BI dashboard built on real surve
 4. How satisfied are professionals with their salary and work/life balance?
 5. How difficult was it to break into the data field?
 
-## 📁 Dataset
+## Dataset
 
 | Item | Detail |
 |---|---|
@@ -39,7 +39,7 @@ This project answers them with a one-page Power BI dashboard built on real surve
 
 **Survey fields:** job title, career switch (yes/no), salary range, industry, favorite programming language, happiness ratings (0–10) for six job aspects — salary, work/life balance, coworkers, management, upward mobility and learning new things — difficulty of breaking into data, most important factor in a new job, gender, age, country, education and ethnicity.
 
-## 🧹 Data Preparation (Power Query)
+## Data Preparation (Power Query)
 
 All cleaning was done in Power Query so the source file stays untouched:
 
@@ -52,7 +52,7 @@ All cleaning was done in Power Query so the source file stays untouched:
 - **Converted salary ranges to a numeric value** — salary was collected as bands (e.g. `41k-65k`). I extracted the lower and upper bound, and created an **`Average Salary`** column using the band midpoint (`(low + high) / 2`, in $K). The open-ended `225k+` band is treated as 225.
 - **Set correct data types** — dates, times, integers (happiness scores, age) and text.
 
-## 📈 Dashboard Components
+## Dashboard Components
 
 | Visual | Type | What it shows |
 |---|---|---|
@@ -66,25 +66,25 @@ All cleaning was done in Power Query so the source file stays untouched:
 
 All visuals are cross-filterable, so clicking a job title, language or country updates the whole page.
 
-## 🔍 Key Findings
+## Key Findings
 
 > Figures are calculated from the 630 responses. Salaries use band midpoints, so treat them as estimates.
 
-### 💰 Salary
+### Salary
 - **Data Scientists earn the most** — about **$94K** average, well ahead of Data Engineers (**$65K**) and Data Analysts (**$55K**).
 - Overall, respondents average **~$54K** (median ≈ $53K). **44%** of respondents earn **under $40K**, and only ~5% earn $125K or more.
 - Students / job-seekers average about $27K, as expected.
 
-### 👩‍💻 Roles & Tools
+### Roles & Tools
 - **Data Analysts are the largest group** — 381 of 630 respondents (**60%**), followed by Data Engineers (38) and Data Scientists (25).
 - **Python is the clear favorite** language — **67%** of respondents (420), roughly 4× more than R (101, 16%). Python is the top pick in **every** job title.
 
-### 🌍 Who Responded
+### Who Responded
 - **United States** leads with **261 respondents (41%)**, then India (73), the UK (40) and Canada (32).
 - The respondent base is young: median age **28**, and ~**74%** are male.
 - **53%** hold a Bachelor's and **31%** a Master's degree. **59%** switched careers into data from another field.
 
-### 😊 Happiness at Work (average rating out of 10)
+### Happiness at Work (average rating out of 10)
 | Aspect | Avg. score |
 |---|---|
 | Coworkers | 5.86 |
@@ -96,26 +96,21 @@ All visuals are cross-filterable, so clicking a job title, language or country u
 
 - **Salary is the lowest-rated aspect (4.3)**, while **work/life balance (5.7)** and coworkers score noticeably higher.
 
-### 🚪 Breaking Into Data
+### Breaking Into Data
 - **43%** found it *neither easy nor difficult*.
 - About **32%** found it difficult or very difficult, versus **26%** who found it easy or very easy — so entry is a moderate, not extreme, hurdle.
 
-### 🎯 What Matters in a New Job
+### What Matters in a New Job
 - **Better salary** is the top priority for **47%** of respondents, followed by remote work (20%) and work/life balance (19%). This lines up with the low salary-satisfaction score.
 
-## 💡 Recommendations
+## Recommendations
 
 - **For aspiring analysts:** Learn **Python** first — it is the most popular language in every role, and moving toward data science / engineering is where the biggest pay jumps are in this sample.
 - **For employers:** Pay is the main weakness and main motivator. Competitive compensation — plus remote flexibility — is the biggest retention lever suggested by this data.
 - **For career changers:** Over half of respondents switched into data and most rated entry as moderate in difficulty, so a non-traditional background is common and workable.
 
-**Planned improvements**
-- Add slicers (job title, country, industry, gender).
-- Show average happiness across all six aspects, not just two.
-- Break down salary by country, education and career-switcher status.
-- Use **average** age and happiness scores in the card and gauges, and add DAX measures for percentages.
 
-## 🛠 Tools & Skills Demonstrated
+## Tools & Skills Demonstrated
 
 - **Power BI Desktop** — report design, interactive visuals
 - **Power Query (M)** — data cleaning, column splitting, type conversion, custom columns
