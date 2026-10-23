@@ -43,14 +43,14 @@ This project answers them with a one page Power BI dashboard built on real surve
 
 All cleaning was done in Power Query so the source file stays untouched:
 
-- **Removed unused columns** — Browser, OS, City, Country, Referrer (empty for every respondent).
-- **Standardized free-text answers** — split on delimiters to collapse write-in values such as `Other (Please Specify): …` into a single **"Other"** category for:
+- **Removed unused columns** Browser, OS, City, Country, Referrer (empty for every respondent).
+- **Standardized free-text answers** split on delimiters to collapse write-in values such as `Other (Please Specify): …` into a single **"Other"** category for:
   - Job title (Q1)
   - Industry (Q4)
   - Programming language (Q5)
   - Country (Q11)
-- **Converted salary ranges to a numeric value** — salary was collected as bands (e.g. `41k-65k`). I extracted the lower and upper bound, and created an **`Average Salary`** column using the band midpoint (`(low + high) / 2`, in $K). The open-ended `225k+` band is treated as 225.
-- **Set correct data types** — dates, times, integers (happiness scores, age) and text.
+- **Converted salary ranges to a numeric value** salary was collected as bands (e.g. `41k-65k`). I extracted the lower and upper bound, and created an **`Average Salary`** column using the band midpoint (`(low + high) / 2`, in $K). The open-ended `225k+` band is treated as 225.
+- **Set correct data types** dates, times, integers (happiness scores, age) and text.
 
 ## Dashboard Components
 
@@ -64,7 +64,7 @@ All cleaning was done in Power Query so the source file stays untouched:
 | Happiness with Work/Life Balance | Gauge | Satisfaction with balance |
 | Difficulty to Break into Data | Donut chart | Perceived entry difficulty |
 
-All visuals are cross-filterable, so clicking a job title, language or country updates the whole page.
+All visuals are cross filterable, so clicking a job title, language or country updates the whole page.
 
 ## Key Findings
 
@@ -94,7 +94,7 @@ All visuals are cross-filterable, so clicking a job title, language or country u
 | Upward Mobility | 4.76 |
 | **Salary** | **4.27** |
 
-- **Salary is the lowest-rated aspect (4.3)**, while **work/life balance (5.7)** and coworkers score noticeably higher.
+- **Salary is the lowest rated aspect (4.3)**, while **work/life balance (5.7)** and coworkers score noticeably higher.
 
 ### Breaking Into Data
 - **43%** found it *neither easy nor difficult*.
@@ -105,21 +105,19 @@ All visuals are cross-filterable, so clicking a job title, language or country u
 
 ## Recommendations
 
-- **For aspiring analysts:** Learn **Python** first — it is the most popular language in every role, and moving toward data science / engineering is where the biggest pay jumps are in this sample.
+- **For aspiring analysts:** Learn **Python** first it is the most popular language in every role, and moving toward data science / engineering is where the biggest pay jumps are in this sample.
 - **For employers:** Pay is the main weakness and main motivator. Competitive compensation plus remote flexibility is the biggest retention lever suggested by this data.
-- **For career changers:** Over half of respondents switched into data and most rated entry as moderate in difficulty, so a non-traditional background is common and workable.
+- **For career changers:** Over half of respondents switched into data and most rated entry as moderate in difficulty, so a non traditional background is common and workable.
 
 
 ## Tools & Skills Demonstrated
 
-- **Power BI Desktop** — report design, interactive visuals
-- **Power Query (M)** — data cleaning, column splitting, type conversion, custom columns
+- **Power BI Desktop** report design, interactive visuals
+- **Power Query (M)** data cleaning, column splitting, type conversion, custom columns
 - **Data modeling & calculated columns**
-- **Data visualization** — bar, column, treemap, gauge and donut charts
-- **Data storytelling** — turning survey data into business insights
-- **Excel** — source data
-
-
+- **Data visualization** bar, column, treemap, gauge and donut charts
+- **Data storytelling** turning survey data into business insights
+- **Excel** source data
 
 
 **Author: Amir Deldar**
