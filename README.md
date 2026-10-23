@@ -1,4 +1,4 @@
-# Data Professional Survey Breakdown Dashboard (Power BI Project)
+# Data Professionals Dashboard (Power BI Project)
 
 An interactive **Power BI** dashboard that explores the results of a survey of **630 data professionals** — what they earn, which tools they use, how happy they are at work, and how hard it was to break into the field.
 
