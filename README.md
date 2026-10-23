@@ -1,4 +1,4 @@
-# 📊 Data Professional Survey Breakdown Dashboard
+# 📊 Data Professional Survey Breakdown Dashboard (Power BI Project)
 
 An interactive **Power BI** dashboard that explores the results of a survey of **630 data professionals** — what they earn, which tools they use, how happy they are at work, and how hard it was to break into the field.
 
@@ -7,6 +7,18 @@ An interactive **Power BI** dashboard that explores the results of a survey of *
 People entering the data field often ask the same questions: *Which role pays the most? Which language should I learn? Is it hard to get in? Will I be happy?*
 
 This project answers them with a one-page Power BI dashboard built on real survey responses. It covers the full analyst workflow — importing raw Excel data, cleaning and transforming it in **Power Query**, and presenting insights through clear, interactive visuals.
+
+## 🗂 Repository Structure
+
+```
+├── data/
+│   └── Data_Professionals.xlsx
+├── dashboard/
+│   └── Data_Professional_Survey_Breakdown_Dashboard.pbix
+├── images/
+│   └── Data_Professionals_Dashboard_ScreenShot.png
+└── README.md
+```
 
 ## ❓ Business Questions
 
@@ -112,21 +124,11 @@ All visuals are cross-filterable, so clicking a job title, language or country u
 - **Data storytelling** — turning survey data into business insights
 - **Excel** — source data
 
-## 🗂 Repository Structure
 
-```
-├── 📁 data/
-│   └── Data_Professionals.xlsx
-├── 📁 dashboard/
-│   └── Data_Professional_Survey_Breakdown_Dashboard.pbix
-├── 📁 images/
-│   └── dashboard.png
-└── README.md
-```
 
 
 **Author: Amir Deldar**
 
-## 📬 Contact:
+**Contact:**
 
 [LinkedIn](https://www.linkedin.com/in/amirdeldar) · [GitHub](https://github.com/amir-deldar) · Email: <callmedeldar@gmail.com>
