@@ -1,12 +1,12 @@
 # Data Professionals Dashboard (Power BI Project)
 
-An interactive **Power BI** dashboard that explores the results of a survey of **630 data professionals** — what they earn, which tools they use, how happy they are at work, and how hard it was to break into the field.
+An interactive **Power BI** dashboard that explores the results of a survey of **630 data professionals**  what they earn, which tools they use, how happy they are at work, and how hard it was to break into the field.
 
 ## Project Overview
 
 People entering the data field often ask the same questions: *Which role pays the most? Which language should I learn? Is it hard to get in? Will I be happy?*
 
-This project answers them with a one-page Power BI dashboard built on real survey responses. It covers the full analyst workflow — importing raw Excel data, cleaning and transforming it in **Power Query**, and presenting insights through clear, interactive visuals.
+This project answers them with a one page Power BI dashboard built on real survey responses. It covers the full analyst workflow importing raw Excel data, cleaning and transforming it in **Power Query**, and presenting insights through clear, interactive visuals.
 
 ## 🗂 Repository Structure
 
@@ -71,13 +71,13 @@ All visuals are cross-filterable, so clicking a job title, language or country u
 > Figures are calculated from the 630 responses. Salaries use band midpoints, so treat them as estimates.
 
 ### Salary
-- **Data Scientists earn the most** — about **$94K** average, well ahead of Data Engineers (**$65K**) and Data Analysts (**$55K**).
+- **Data Scientists earn the most**  about **$94K** average, well ahead of Data Engineers (**$65K**) and Data Analysts (**$55K**).
 - Overall, respondents average **~$54K** (median ≈ $53K). **44%** of respondents earn **under $40K**, and only ~5% earn $125K or more.
 - Students / job-seekers average about $27K, as expected.
 
 ### Roles & Tools
-- **Data Analysts are the largest group** — 381 of 630 respondents (**60%**), followed by Data Engineers (38) and Data Scientists (25).
-- **Python is the clear favorite** language — **67%** of respondents (420), roughly 4× more than R (101, 16%). Python is the top pick in **every** job title.
+- **Data Analysts are the largest group**  381 of 630 respondents (**60%**), followed by Data Engineers (38) and Data Scientists (25).
+- **Python is the clear favorite** language  **67%** of respondents (420), roughly 4× more than R (101, 16%). Python is the top pick in **every** job title.
 
 ### Who Responded
 - **United States** leads with **261 respondents (41%)**, then India (73), the UK (40) and Canada (32).
@@ -98,7 +98,7 @@ All visuals are cross-filterable, so clicking a job title, language or country u
 
 ### Breaking Into Data
 - **43%** found it *neither easy nor difficult*.
-- About **32%** found it difficult or very difficult, versus **26%** who found it easy or very easy — so entry is a moderate, not extreme, hurdle.
+- About **32%** found it difficult or very difficult, versus **26%** who found it easy or very easy  so entry is a moderate, not extreme, hurdle.
 
 ### What Matters in a New Job
 - **Better salary** is the top priority for **47%** of respondents, followed by remote work (20%) and work/life balance (19%). This lines up with the low salary-satisfaction score.
@@ -106,7 +106,7 @@ All visuals are cross-filterable, so clicking a job title, language or country u
 ## Recommendations
 
 - **For aspiring analysts:** Learn **Python** first — it is the most popular language in every role, and moving toward data science / engineering is where the biggest pay jumps are in this sample.
-- **For employers:** Pay is the main weakness and main motivator. Competitive compensation — plus remote flexibility — is the biggest retention lever suggested by this data.
+- **For employers:** Pay is the main weakness and main motivator. Competitive compensation plus remote flexibility is the biggest retention lever suggested by this data.
 - **For career changers:** Over half of respondents switched into data and most rated entry as moderate in difficulty, so a non-traditional background is common and workable.
 
 
