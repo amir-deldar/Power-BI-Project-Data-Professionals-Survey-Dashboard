@@ -37,7 +37,7 @@ This project answers them with a one page Power BI dashboard built on real surve
 | Collected | 10–26 June 2022 |
 | Format | `.xlsx` (1 sheet, 28 raw columns) |
 
-**Survey fields:** job title, career switch (yes/no), salary range, industry, favorite programming language, happiness ratings (0–10) for six job aspects — salary, work/life balance, coworkers, management, upward mobility and learning new things — difficulty of breaking into data, most important factor in a new job, gender, age, country, education and ethnicity.
+**Survey fields:** job title, career switch (yes/no), salary range, industry, favorite programming language, happiness ratings (0–10) for six job aspects salary, work/life balance, coworkers, management, upward mobility and learning new things difficulty of breaking into data, most important factor in a new job, gender, age, country, education and ethnicity.
 
 ## Data Preparation (Power Query)
 
